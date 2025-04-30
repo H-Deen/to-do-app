@@ -1,3 +1,5 @@
+'use client'
+
 import { createContext, useContext, useState, useEffect, ReactNode } from "react";
 import { TodoItem, Project, Tag } from "@/types";
 import { useToast } from "@/hooks/use-toast";

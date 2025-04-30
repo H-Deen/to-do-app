@@ -1,5 +1,6 @@
+'use client'
+
 import { useState } from "react";
-// import { useTodo } from "@/context/TodoContext";
 import { Plus, ChevronDown, ChevronUp, Edit, Trash2 } from "lucide-react";
 import { Button } from "@/components/ui/button";
 import { Dialog, DialogContent, DialogHeader, DialogTitle, DialogTrigger } from "@/components/ui/dialog";
